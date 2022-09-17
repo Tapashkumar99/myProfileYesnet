@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,98 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+.App {
+  background-color: aliceblue;
+}
+
+.navb {
+  display: flex;
+  align-items: center;
+  display: inline-flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.header {
+  align-content: center;
+  margin-left: 4.5rem;
+  /* background-color: rgba(188, 225, 226, 0.801); */
+}
+
+.fa {
+  align-items: flex-end;
+  margin-left: 6rem;
+}
+
+.avator {
+  height: 3.5rem;
+  width: 3.5rem;
+  border-radius: 50%;
+}
+.btn2 {
+  font-size: 0.4rem;
+  padding: 0.2rem;
+  background-color: orangered;
+  border-radius: 2rem;
+  border-color: orangered;
+  border-width: 0em;
+}
+.about {
+  font-size: 0.8rem;
+}
+
+.card1 {
+  background-color: aliceblue;
+  border-color: aliceblue;
+  border-width: 0em;
+}
+.card2 {
+  background-color: white;
+  border-color: aliceblue;
+  border-width: 0em;
+}
+.card-header {
+  background-color: aliceblue;
+  border-color: aliceblue;
+  border-width: 0em;
+}
+.book {
+  height: 4.4rem;
+  width: 3.3rem;
+}
+.cardRow {
+  border-bottom: 0.2rem;
+  border-bottom-color: black;
+}
+.bookAuth {
+  font-size: 0.7rem;
+}
+.bookName {
+  font-size: 1rem;
+}
+.pie-box {
+  width: 7vh;
+  height: 7vh;
+  border-radius: 50%;
+  background-color: black;
+
+  background: repeating-conic-gradient(
+    from 0deg,
+    black 0deg 210deg,
+    white 210deg 360deg
+  );
+}
+.pie-box2 {
+  width: 7vh;
+  height: 7vh;
+  border-radius: 50%;
+  background-color: black;
+
+  background: repeating-conic-gradient(
+    from 0deg,
+    black 0deg 160deg,
+    white 160deg 360deg
+  );
 }
