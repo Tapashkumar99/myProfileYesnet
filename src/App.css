@@ -39,6 +39,7 @@
 
 .App {
   background-color: aliceblue;
+  border-radius: 3rem;
 }
 
 .navb {
@@ -107,8 +108,8 @@
   font-size: 1rem;
 }
 .pie-box {
-  width: 7vh;
-  height: 7vh;
+  width: 5vh;
+  height: 5vh;
   border-radius: 50%;
   background-color: black;
 
@@ -119,8 +120,8 @@
   );
 }
 .pie-box2 {
-  width: 7vh;
-  height: 7vh;
+  width: 5vh;
+  height: 5vh;
   border-radius: 50%;
   background-color: black;
 

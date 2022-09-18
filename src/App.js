@@ -7,37 +7,43 @@ function App() {
   return (
     <div className="App">
       <div className="p-4" style={{ borderRadius: "2rem", borderColor: "red" }}>
-        <div className="navb mt-2">
-          <a
-            class="btn"
-            data-bs-toggle="offcanvas"
-            href="#offcanvasExample"
-            role="button"
-            aria-controls="offcanvasExample"
-          >
-            <i class="fa-solid fa-bars" />
-          </a>
+        <div className="row">
+          <div className="col-2 text-left">
+            <a
+              class="btn"
+              data-bs-toggle="offcanvas"
+              href="#offcanvasExample"
+              role="button"
+              aria-controls="offcanvasExample"
+            >
+              <i class="fa-solid fa-bars" />
+            </a>
 
-          <div
-            class="offcanvas offcanvas-start"
-            tabindex="-1"
-            id="offcanvasExample"
-            aria-labelledby="offcanvasExampleLabel"
-          >
-            <div class="offcanvas-header">
-              <h5 class="offcanvas-title" id="offcanvasExampleLabel">
-                Menu
-              </h5>
-              <button
-                type="button"
-                class="btn-close"
-                data-bs-dismiss="offcanvas"
-                aria-label="Close"
-              ></button>
+            <div
+              class="offcanvas offcanvas-start"
+              tabindex="-1"
+              id="offcanvasExample"
+              aria-labelledby="offcanvasExampleLabel"
+            >
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasExampleLabel">
+                  Menu
+                </h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="offcanvas"
+                  aria-label="Close"
+                ></button>
+              </div>
             </div>
           </div>
-          <h6 className="header">My Profile</h6>
-          <i class="fa fa-solid fa-bell" />
+          <div className="col-6 text-center pt-2">
+            <h6 className="header">My Profile</h6>
+          </div>
+          <div className="col-2 text-end pt-2 px-2">
+            <i class="fa fa-solid fa-bell" />
+          </div>
         </div>
 
         <div
@@ -129,7 +135,7 @@ function App() {
                 </div>
               </div>
               <div className="row cardRow py-2">
-                <div className="col-3">
+                <div className="col-3 text-center">
                   <img className="book" src={book2} />
                 </div>
                 <div className="col-5">
